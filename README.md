@@ -1,8 +1,8 @@
 # Shiori
 
-Shiori is a React Native app that makes book discovery easy and visual!
-//It tags each book with aesthetic color profiles and lets users filter, explore, and save book covers based on aesthetic, color, and genre :)
-//This app retrieves book metadata using the Apple iTunes Search API.
+Shiori is a React Native app that makes book discovery easy and visual!<br />
+It tags each book with aesthetic color profiles and lets users filter, explore, and save book covers based on aesthetic, color, and genre :)<br />
+This app retrieves book metadata using the Apple iTunes Search API.
 
 *WIP - currently, the color filters don't work well, and the app has not been tested beyond the Expo Go app on an iPhone.
 
