@@ -12,11 +12,11 @@ This app retrieves book metadata using the Apple iTunes Search API.
 *WIP - currently, the color filters don't work well, and the app has not been tested beyond the Expo Go app on an iPhone.
 
 ## Set up
-##1. Clone repo
+## 1. Clone repo
 git clone https://github.com/yuinaiseki/shiori.git
 cd shiori
 
-##2. Install Dependencies
+## 2. Install Dependencies
 ```bash
 npm install
 ```
@@ -25,15 +25,14 @@ or
 yarn install
 ```
 
-##3. Create a Supabase Project
+## 3. Create a Supabase Project
 Go to: https://supabase.com/dashboard
-Click New Project
+Make an account if not yet already, and click New Project
 Copy your:
 - SUPABASE_URL
 - SUPABASE_ANON_KEY
 
-##4. 
-Create Database Tables
+## 4. Create Database Tables
 
 Open Table Editor → SQL Editor, paste 👇:
 
@@ -70,7 +69,7 @@ create policy "Users manage their own books"
   with check (auth.uid() = user_id);
 ```
 
-##5. Create a .env File
+## 5. Create a .env File
 
 Create a .env in the project root:
 
@@ -79,7 +78,7 @@ EXPO_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
 ```
 
-##6. Finally, Start the App!
+## 6. Finally, Start the App!
 
 Run:
 ```bash
