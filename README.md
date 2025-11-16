@@ -27,7 +27,7 @@ yarn install
 
 ## 3. Create a Supabase Project
 Go to: https://supabase.com/dashboard
-Make an account if not yet already, and click New Project
+Make an account if not yet already, and click New Project.<br />
 Copy your:
 - SUPABASE_URL
 - SUPABASE_ANON_KEY
